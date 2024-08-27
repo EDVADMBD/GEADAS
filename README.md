@@ -7,7 +7,7 @@
 
 Este projeto utiliza a biblioteca Plotly para criar um gráfico de dispersão geográfica interativa, exibindo as temperaturas mínimas registradas em bairros da cidade de São Paulo.
 
-### Descrição do Projeto
+### Descrição do Projeto.
 
 O projeto tem como objetivo visualizar as temperaturas registradas em diversos bairros da cidade de São Paulo, utilizando um gráfico de dispersão geográfica. As temperaturas são representadas por círculos, e o tamanho do círculo é proporcional à intensidade da temperatura mínima registrada.
 
