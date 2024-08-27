@@ -83,4 +83,4 @@ fig.show()
 
 Você pode acessar o projeto no Google Colab aqui.
 
-[GitHub: Clique aqui](https://colab.research.google.com/drive/1gnOMEdbQFjk_dlestqDDjI61jSN9eQux#scrollTo=hd1ov_iA0MIR)
+https://colab.research.google.com/drive/1gnOMEdbQFjk_dlestqDDjI61jSN9eQux
