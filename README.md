@@ -1,4 +1,6 @@
 # GEADAS
+![images](https://github.com/user-attachments/assets/7dd46eb3-fb0a-42b7-95af-abce3ba0930a)
+
 PROJETOS APRENDIZADO - Vamos criar um código Python que exiba as cidades com as menores temperaturas registrada
 
 # Cidades com as Menores Temperaturas Registradas
@@ -79,3 +81,5 @@ fig.update_layout(
 # Mostrar o gráfico
 fig.show()
 
+
+https://colab.research.google.com/drive/1gnOMEdbQFjk_dlestqDDjI61jSN9eQux#scrollTo=hd1ov_iA0MIR
