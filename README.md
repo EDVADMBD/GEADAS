@@ -1,15 +1,15 @@
 # GEADAS
 ![images](https://github.com/user-attachments/assets/7dd46eb3-fb0a-42b7-95af-abce3ba0930a)
 
-PROJETOS APRENDIZADO - Vamos criar um código Python que exiba as cidades com as menores temperaturas registrada
+# Projetos Aprendizado
 
-# Cidades com as Menores Temperaturas Registradas
+## Cidades com as Menores Temperaturas Registradas
 
-Este projeto utiliza a biblioteca Plotly para criar um gráfico de dispersão geográfico interativo, exibindo as menores temperaturas registradas em bairros da cidade de São Paulo.
+Este projeto utiliza a biblioteca Plotly para criar um gráfico de dispersão geográfica interativa, exibindo as temperaturas mínimas registradas em bairros da cidade de São Paulo.
 
-## Descrição do Projeto
+### Descrição do Projeto
 
-O projeto tem como objetivo visualizar as menores temperaturas registradas em diversos bairros da cidade de São Paulo, utilizando um gráfico de dispersão geográfico. As temperaturas são representadas por círculos, e o tamanho do círculo é proporcional à intensidade da temperatura mínima registrada.
+O projeto tem como objetivo visualizar as temperaturas registradas em diversos bairros da cidade de São Paulo, utilizando um gráfico de dispersão geográfica. As temperaturas são representadas por círculos, e o tamanho do círculo é proporcional à intensidade da temperatura mínima registrada.
 
 ### Bibliotecas Utilizadas
 
@@ -18,19 +18,19 @@ O projeto tem como objetivo visualizar as menores temperaturas registradas em di
 
 ### Estrutura do Código
 
-1. **Definição dos Dados**: 
-   - Lista de bairros de São Paulo com suas respectivas menores temperaturas registradas.
+1. **Definição dos Dados**:
+   - Lista de bairros de São Paulo com suas respectivas temperaturas mínimas registradas.
    - Coordenadas geográficas (latitude e longitude) para cada bairro.
 
-2. **Criação do DataFrame**: 
+2. **Criação do DataFrame**:
    - Utilizamos a biblioteca Pandas para organizar os dados em um DataFrame.
 
-3. **Criação do Gráfico de Dispersão Geográfico**:
+3. **Criação do Gráfico de Dispersão Geográfica**:
    - O gráfico é criado utilizando `plotly.express.scatter_geo`.
-   - As temperaturas mínimas são representadas por cores, e o tamanho dos marcadores é escalado de acordo com a magnitude da temperatura.
+   - As temperaturas mínimas são representadas por núcleos, e o tamanho dos marcadores é escalado de acordo com a magnitude da temperatura.
 
 4. **Ajuste do Layout**:
-   - O layout do gráfico é ajustado para centralizar o mapa em São Paulo.
+   - O layout dos gráficos é ajustado para centralizar o mapa em São Paulo.
 
 ### Código
 
@@ -81,5 +81,4 @@ fig.update_layout(
 # Mostrar o gráfico
 fig.show()
 
-
-https://colab.research.google.com/drive/1gnOMEdbQFjk_dlestqDDjI61jSN9eQux#scrollTo=hd1ov_iA0MIR
+Você pode acessar o projeto no Google Colab aqui.
