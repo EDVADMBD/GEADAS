@@ -82,3 +82,5 @@ fig.update_layout(
 fig.show()
 
 Você pode acessar o projeto no Google Colab aqui.
+
+GitHub: Clique aqui
