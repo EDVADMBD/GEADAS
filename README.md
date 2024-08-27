@@ -82,4 +82,4 @@ fig.update_layout(
 fig.show()
 
 Você pode acessar o projeto no Google Colab aqui
-(https://colab.research.google.com/drive/1gnOMEdbQFjk_dlestqDDjI61jSN9eQux)
+https://colab.research.google.com/drive/1gnOMEdbQFjk_dlestqDDjI61jSN9eQux
