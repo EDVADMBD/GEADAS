@@ -16,7 +16,7 @@ O projeto tem como objetivo visualizar as temperaturas registradas em diversos b
 - **Pandas**: Para manipulação de dados.
 - **Plotly Express**: Para a criação de gráficos interativos.
 
-### Estrutura do Código
+### Estrutura do Código.
 
 1. **Definição dos Dados**:
    - Lista de bairros de São Paulo com suas respectivas temperaturas mínimas registradas.
