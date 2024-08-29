@@ -41,12 +41,9 @@ bairros_sp = [
     {"bairro": "Pinheiros", "temperatura_minima": -1.2, "latitude": -23.5563, "longitude": -46.6944},
 
 
-
 ## Mostrar o gráfico
 fig.show()
 Você pode acessar o projeto no Google Colab aqui.
-
-
 
 
 
