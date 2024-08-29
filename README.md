@@ -83,4 +83,7 @@ fig.show()
 
 Você pode acessar o projeto no Google Colab aqui.
 
-https://colab.research.google.com/drive/1gnOMEdbQFjk_dlestqDDjI61jSN9eQux
+[clique aqui]([https://www.exemplo.com](https://colab.research.google.com/drive/1gnOMEdbQFjk_dlestqDDjI61jSN9eQux))
+
+
+
