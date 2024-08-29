@@ -83,6 +83,8 @@ fig.show()
 
 Você pode acessar o projeto no Google Colab aqui https://colab.research.google.com/drive/1gnOMEdbQFjk_dlestqDDjI61jSN9eQux
 
+https://colab.research.google.com/github/EDVADMBD/QUEIMADAS/blob/main/QUEIMADAS_2024.ipynb
+
 
 
 
