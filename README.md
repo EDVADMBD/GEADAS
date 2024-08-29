@@ -45,6 +45,8 @@ bairros_sp = [
 fig.show()
 Você pode acessar o projeto no Google Colab aqui.
 
+https://github.com/EDVADMBD/GEADAS/blob/main/Geadas_pynb.ipynb
+
 
 
 
