@@ -39,38 +39,8 @@ bairros_sp = [
     {"bairro": "Mooca", "temperatura_minima": -1.8, "latitude": -23.5567, "longitude": -46.6213},
     {"bairro": "Itaim Bibi", "temperatura_minima": -1.5, "latitude": -23.5943, "longitude": -46.6905},
     {"bairro": "Pinheiros", "temperatura_minima": -1.2, "latitude": -23.5563, "longitude": -46.6944},
-    {"bairro": "Vila Mariana", "temperatura_minima": -1.0, "latitude": -23.5826, "longitude": -46.6341},
-    {"bairro": "Centro", "temperatura_minima": -0.8, "latitude": -23.5505, "longitude": -46.6333},
-]
 
-# Criar um DataFrame a partir dos dados
-df_bairros = pd.DataFrame(bairros_sp)
 
-# Adicionar uma coluna para o tamanho dos marcadores
-df_bairros['size'] = abs(df_bairros['temperatura_minima']) * 5  # Escalar o tamanho dos marcadores
-
-# Criar o gráfico de dispersão interativo
-fig = px.scatter_geo(df_bairros,
-                     lat='latitude',
-                     lon='longitude',
-                     text='bairro',
-                     size='size',  # Usar a coluna 'size' para o tamanho dos marcadores
-                     color='temperatura_minima',
-                     hover_name='bairro',
-                     hover_data={'temperatura_minima': True},
-                     color_continuous_scale='Viridis',
-                     title='Menores Temperaturas Registradas em Bairros de São Paulo')
-
-# Ajustar o layout
-fig.update_layout(
-    geo=dict(
-        scope='south america',
-        projection_type='mercator',
-        center=dict(lat=-23.5505, lon=-46.6333),  # Centralizar o mapa em São Paulo
-    ),
-    title='Menores Temperaturas Registradas em Bairros de São Paulo',
-    title_x=0.5
-)
 
 # Mostrar o gráfico
 fig.show()
