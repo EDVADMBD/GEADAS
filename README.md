@@ -1,40 +1,34 @@
 # GEADAS
 ![images](https://github.com/user-attachments/assets/7dd46eb3-fb0a-42b7-95af-abce3ba0930a)
 
-# Projetos Aprendizado
+Projetos Aprendizado
+Cidades com as Menores Temperaturas Registradas
+Este projeto utiliza a biblioteca Plotly para criar um gráfico de dispersão geográfica interativo, exibindo as temperaturas mínimas registradas em bairros da cidade de São Paulo.
 
-## Cidades com as Menores Temperaturas Registradas
+Descrição do Projeto
+O objetivo deste projeto é visualizar as temperaturas mínimas registradas em diversos bairros da cidade de São Paulo, utilizando um gráfico de dispersão geográfica. As temperaturas são representadas por círculos, cujo tamanho é proporcional à intensidade da temperatura mínima registrada.
 
-Este projeto utiliza a biblioteca Plotly para criar um gráfico de dispersão geográfica interativa, exibindo as temperaturas mínimas registradas em bairros da cidade de São Paulo.
+Bibliotecas Utilizadas
+Pandas: Para manipulação de dados.
+Plotly Express: Para a criação de gráficos interativos.
+Estrutura do Código
+Definição dos Dados:
 
-### Descrição do Projeto.
+Lista de bairros de São Paulo com suas respectivas temperaturas mínimas registradas.
+Coordenadas geográficas (latitude e longitude) para cada bairro.
+Criação do DataFrame:
 
-O projeto tem como objetivo visualizar as temperaturas registradas em diversos bairros da cidade de São Paulo, utilizando um gráfico de dispersão geográfica. As temperaturas são representadas por círculos, e o tamanho do círculo é proporcional à intensidade da temperatura mínima registrada.
+Utilizamos a biblioteca Pandas para organizar os dados em um DataFrame.
+Criação do Gráfico de Dispersão Geográfica:
 
-### Bibliotecas Utilizadas
+O gráfico é criado utilizando plotly.express.scatter_geo.
+As temperaturas mínimas são representadas por núcleos, e o tamanho dos marcadores é escalado de acordo com a magnitude da temperatura.
+Ajuste do Layout:
 
-- **Pandas**: Para manipulação de dados.
-- **Plotly Express**: Para a criação de gráficos interativos.
-
-### Estrutura do Código.
-
-1. **Definição dos Dados**:
-   - Lista de bairros de São Paulo com suas respectivas temperaturas mínimas registradas.
-   - Coordenadas geográficas (latitude e longitude) para cada bairro.
-
-2. **Criação do DataFrame**:
-   - Utilizamos a biblioteca Pandas para organizar os dados em um DataFrame.
-
-3. **Criação do Gráfico de Dispersão Geográfica**:
-   - O gráfico é criado utilizando `plotly.express.scatter_geo`.
-   - As temperaturas mínimas são representadas por núcleos, e o tamanho dos marcadores é escalado de acordo com a magnitude da temperatura.
-
-4. **Ajuste do Layout**:
-   - O layout dos gráficos é ajustado para centralizar o mapa em São Paulo.
-
-### Código
-
-```python
+O layout dos gráficos é ajustado para centralizar o mapa em São Paulo.
+Código
+python
+Copiar código
 import plotly.express as px
 import pandas as pd
 
@@ -80,10 +74,9 @@ fig.update_layout(
 
 # Mostrar o gráfico
 fig.show()
+Você pode acessar o projeto no Google Colab aqui.
 
-Você pode acessar o projeto no Google Colab aqui https://colab.research.google.com/drive/1gnOMEdbQFjk_dlestqDDjI61jSN9eQux
 
-https://colab.research.google.com/github/EDVADMBD/QUEIMADAS/blob/main/QUEIMADAS_2024.ipynb
 
 
 
