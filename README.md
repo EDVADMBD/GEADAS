@@ -1,11 +1,11 @@
 # GEADAS
 ![images](https://github.com/user-attachments/assets/7dd46eb3-fb0a-42b7-95af-abce3ba0930a)
 
-Projetos Aprendizado
+### Projetos Aprendizado
 Cidades com as Menores Temperaturas Registradas
 Este projeto utiliza a biblioteca Plotly para criar um gráfico de dispersão geográfica interativo, exibindo as temperaturas mínimas registradas em bairros da cidade de São Paulo.
 
-Descrição do Projeto
+### Descrição do Projeto
 O objetivo deste projeto é visualizar as temperaturas mínimas registradas em diversos bairros da cidade de São Paulo, utilizando um gráfico de dispersão geográfica. As temperaturas são representadas por círculos, cujo tamanho é proporcional à intensidade da temperatura mínima registrada.
 
 Bibliotecas Utilizadas
